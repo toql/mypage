@@ -80,7 +80,7 @@
             margin-top: 20px;
         }
 
-        .mybtn > button {
+        .mybtn>button {
             margin-right: 10px;
         }
     </style>
@@ -95,6 +95,17 @@
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">영화URL</label>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+            <select class="form-select" id="inputGroupSelect01">
+                <option selected>-- 선택하기 --</option>
+                <option value="⭐">One</option>
+                <option value="⭐⭐">Two</option>
+                <option value="⭐⭐⭐">Three</option>
+                <option value="⭐⭐⭐⭐">Four</option>
+                <option value="⭐⭐⭐⭐⭐">Five</option>
+            </select>
         </div>
         <div class="form-floating">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
